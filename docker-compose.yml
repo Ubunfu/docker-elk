@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  logstash:
+    build: .
+    ports: 
+      - '5000:5000'
+    volumes:
+      - '$PWD/ls_pipelines:/app/ls_pipelines'
+      - '$PWD/ls_logs:/app/ls_logs'
