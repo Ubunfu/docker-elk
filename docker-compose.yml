@@ -9,6 +9,8 @@ services:
       - '$PWD/logstash/ls_pipelines:/app/ls_pipelines'
 
   filebeat:
+    depends_on:
+      - logstash
     build: ./filebeat
     volumes:
       - '$PWD/filebeat/logs:/app/logs'
