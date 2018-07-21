@@ -2,9 +2,13 @@ version: '3'
 
 services:
   logstash:
-    build: .
+    build: ./logstash
     ports: 
-      - '5000:5000'
+      - '5001:5001'
     volumes:
-      - '$PWD/ls_pipelines:/app/ls_pipelines'
-      - '$PWD/ls_logs:/app/ls_logs'
+      - '$PWD/logstash/ls_pipelines:/app/ls_pipelines'
+
+  filebeat:
+    build: ./filebeat
+    volumes:
+      - '$PWD/filebeat/logs:/app/logs'

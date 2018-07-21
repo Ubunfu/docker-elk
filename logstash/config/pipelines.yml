@@ -13,14 +13,10 @@
 # - pipeline.id: another_test
 #   queue.type: persisted
 #   path.config: "/tmp/logstash/*.config"
-- pipeline.id: file
+- pipeline.id: filebeat
   pipeline.workers: 1
   pipeline.batch.size: 1
-  path.config: "/app/ls_pipelines/file/*.conf"
-- pipeline.id: beats
-  pipeline.workers: 1
-  pipeline.batch.size: 1
-  path.config: "/app/ls_pipelines/beats/*.conf"
+  path.config: "/app/ls_pipelines/*.conf"
 #
 # Available options:
 #
