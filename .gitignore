@@ -1,0 +1,9 @@
+logstash/logstash-6.3.1/
+logstash/logstash-6.3.1.tar.gz
+filebeat/filebeat-6.3.1-linux-x86_64/
+filebeat/filebeat-6.3.1-linux-x86_64.tar.gz
+filebeat/logs/
+metricbeat/metricbeat-6.3.1-linux-x86_64/
+metricbeat/metricbeat-6.3.1-linux-x86_64.tar.gz
+elasticsearch/elasticsearch-6.3.1/
+elasticsearch/elasticsearch-6.3.1.tar.gz
