@@ -4,9 +4,9 @@
 Elastic stack running as containers
 
 ### Usage
-1) Downlaod [Logstash 6.3.1](https://www.elastic.co/downloads/logstash) tarball and place it in logstash/
-2) Downlaod [Elasticsearch 6.3.1](https://www.elastic.co/downloads/elasticsearch) tarball and place it in elasticsearch/
-3) Downlaod [Filebeat 6.3.1](https://www.elastic.co/downloads/beats/filebeat) tarball and place it in filebeat/
+1) Downlaod [Logstash 6.3.1](https://artifacts.elastic.co/downloads/logstash/logstash-6.3.1.tar.gz) tarball and place it in logstash/
+2) Downlaod [Elasticsearch 6.3.1](https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-6.3.1.tar.gz) tarball and place it in elasticsearch/
+3) Downlaod [Filebeat 6.3.1](https://artifacts.elastic.co/downloads/beats/filebeat/filebeat-6.3.1-linux-x86_64.tar.gz) tarball and place it in filebeat/
 4) Run ```$docker-compose up --build``` to build and start all containers!
 
 ### Implementation
