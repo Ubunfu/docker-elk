@@ -12,3 +12,5 @@ Elastic stack running as containers
 ### Implementation
 + Docker images are built on top of the [```openjdk:11-jre```](https://docs.docker.com/samples/library/openjdk/) base image
 + Test log files are located in ```./logs```, and bind mounted to the filebeat container, so you can make live edits - no need to rebuild or restart.  Filebeat will pick them up and beat them over to logstash.
+
+Commit to the Artic Code Vault! 1000 YEARS ARCTIC CODE VAULT, MORTY!!
